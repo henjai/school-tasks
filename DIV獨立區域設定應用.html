@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head> <meta charset="utf-8" /> <title>Div 應用</title>
+ <style>
+ .style1 { 
+ background-color: #ffd800; 
+ z-index: 1; }
+ .style2 { 
+ background-color: #00ff90; 
+ z-index: 2; }
+ .area3 {
+ position: absolute;
+ top: 300px;
+ left: 300px;
+ width: 300px;
+ height: 200px;
+ background-color: red;
+ overflow-y: scroll; 
+ z-index: 3; 
+ } 
+ .div1 {
+ position: absolute;
+    top: 700px;
+    left: 100px;
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    overflow-y: scroll;
+    z-index: auto;
+    }
+    .div2 {
+ position: absolute;
+    top: 700px;
+    left: 500px;
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    overflow-y: scroll;
+    z-index: auto;
+    }
+    .div3 {
+ position: absolute;
+    top: 1100px;
+    left: 100px;
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    overflow-y: scroll;
+    z-index: auto;
+    }
+    .div4 {
+ position: absolute;
+    top: 1100px;
+    left: 500px;
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    overflow-y:scroll;
+    z-index: auto;
+    }
+    h3 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+ </style>
+ </head>
+ <body>
+<div class="style1" style="position: absolute;top: 100px; 
+left:100px;width: 300px;height: 200px;"> 這是第一個領域 </div>
+<div class="style2" style="position: absolute;top: 200px; 
+left:200px;width: 300px;height: 200px;"> 這是第二個領域 </div>
+ <div class="area3">
+ <p><a href="http://www.google.com.tw">這是第一隻貓</a></p>
+ <img src="cat1.jpg" width="200" height="130" alt="cat1" />
+ <p><a href="http://www.google.com.tw">這是第二隻貓</a></p>
+ <img src="cat2.jpg" width="200" height="150" alt="cat2" />
+ </div> 
+ <div class="div1">
+    <h3>DIV1</h3>
+    <p>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br></p>
+ </div>
+ <div class="div2">
+    <h3>DIV2</h3>
+    <p>11<br>12<br>13<br>14<br>15<br>16<br>17<br>18<br>19<br>20<br></p>
+ </div>
+ <div class="div3">
+    <h3>DIV3</h3>
+    <p>21<br>22<br>23<br>24<br>25<br>26<br>27<br>28<br>29<br>30<br></p>
+ </div>
+ <div class="div4">
+    <h3>DIV4</h3>
+    <p>31<br>32<br>33<br>34<br>35<br>36<br>37<br>38<br>39<br>40<br></p>
+ </div>
+ </body>
+</html>
