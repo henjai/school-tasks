@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p { font-size: 14px; 
+         color: red; 
+         line-height: 18; }
+        li { font-size: 10px; 
+         color: pink;
+         background-color: yellow; }
+        h1 { font-size: 10px; 
+         color: green; 
+         font-weight: 900; }
+        h2 { 
+         color: green; 
+        }
+        a { font-size: 15px; 
+         font-family: 標楷體; }
+        .style1 {
+         color: Orange; }
+        .style2 {
+         font-size: 20px;
+         font-style: italic; }
+         .style3 {
+         font-size: 15px;
+         line-height: 20px;
+         letter-spacing: 10px;
+         }
+         .style4 {
+         color: pink;
+         background-color: blue;
+            }
+            .styte5 {
+                font-weight: 600;
+            }
+
+        </style>
+</head>
+<body>
+    <h1 class="style1">入口網站連結</h1>
+    <ul>
+    <li><a href="https://www.pchome.com.tw">PCHOME</a></li>
+    <li><a href="https://tw.yahoo.com">YAHOO</a></li>
+    <li><a href="https://www.google.com.tw">GOOGLE</a></li>
+    <li><a href="https://www.kmvs.km.edu.tw">金門農工</a></li>
+    </ul>
+    <h2>第一個標題</h2> <p>第一個內容。</p>
+    <h2>第二個標題</h2> <p>段落一。</p> <p>段落二。</p>
+    <small class="style2"> kmvs cs</small> 
+    <h1 class="style3">PCHOME</h1>
+    <h1 class="style4">YAHOO</h1>
+    <h1 class="style5">相關資源</h1>
+    
+</body>
+</html>
