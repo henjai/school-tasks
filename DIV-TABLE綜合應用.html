@@ -1,12 +1,13 @@
-html lang="en">
- <head> 
+<!DOCTYPE html>
+<html lang="en">
+<head> 
 <meta charset="utf-8" /> 
 <title>CSS 進階應用</title>
  <style>
  .area1 {
  position: absolute; top: 100px;left: 100px;
 width: 600px;height: 600px;
- background-color: #ffea6c;overflow-y: scroll;z-index:3;}
+ background-color: #ffea6c;overflow-y: scroll;z-index: 3;}
  table {
  background-color: #ffd800; /* 設定背景顏色 */
  border: 5px; /* 設定框線厚度 */
@@ -15,24 +16,31 @@ width: 600px;height: 600px;
  td {
  border: 2px; border-color: Black; border-style: solid;
  vertical-align: top; }
+ 
  </style>
  </head>
  <body> 
- <div class="area1">
- <table >
- <tr>
- <td><p>這是第一隻貓</p>
- <img src="cat1.jpg" width="200" height="130" alt="cat1" /></td>
- <td> <p>這是第二隻貓</p>
- <img src="cat2.jpg" width="200" height="150" alt="cat2" /></td>
- </tr>
- <tr>
- <td><p>這是第一隻狗</p>
- <img src="dog1.jpg" width="200" height="150" alt="dog1" /></td>
- <td> <p>這是第二隻狗</p>
- <img src="dog2.jpg" width="200" height="250" alt="dog2" /></td>
- </tr>
- </table>
- </div> 
+<div style="position: absolute; top: 50px; left: 50px; width: 400px; height: 400px;overflow-y: scroll;">
+    <table style="border: 5px; border-color: red; width: 300px; height: 300px; border-style: dashed;">
+        <tr>
+            <td><p>cat1</p>
+            <a href="www.pchome.com.tw"><img src="picture/cat1.jpg" width="200" height="200" alt="cat1"></a></td>
+        </tr>
+        <tr>
+            <td><p>cat2</p>
+                <a href="www.pchome.com.tw"><img src="picture/cat2.jpg" width="200" height="200" alt="cat2"></a></td>
+        </tr>
+        <tr>
+            <td><p>dog1</p>
+                <a href="www.pchome.com.tw"><img src="picture/dog1.jpg" width="200" height="200" alt="dog1"></a></td>
+        </tr>
+        <tr>
+            <td><p>dog2</p>
+                <a href="www.pchome.com.tw"><img src="picture/dog2.jpg" width="200" height="200" alt="dog1"></a></td>
+        </tr>
+    </table>
+ </div>
+
+ </div>
  </body>
 </html>
